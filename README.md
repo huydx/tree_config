@@ -5,15 +5,21 @@ Rails very simple configuration gem, which use "folder structure" as settings ke
 
 Add this line to your application's Gemfile:
 
+```ruby
     gem 'tree_config'
+```
 
 And then execute:
 
+```
     $ bundle
+```
 
 Or install it yourself as:
 
+```
     $ gem install tree_config
+```
 
 ## Usage
 Use rails generator to generate default config folder
