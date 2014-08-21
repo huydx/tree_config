@@ -1,0 +1,6 @@
+A:
+  a1: bar
+  a2: baz
+B:
+  a3:
+    a4: foo
