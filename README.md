@@ -48,7 +48,7 @@ The content of A is access by properties notation (For example Settings.folder1.
 
 ## Contributing
 
-1. Fork it ( http://github.com/tree/tree_config/fork )
+1. Fork it ( http://github.com/huydx/tree_config/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
