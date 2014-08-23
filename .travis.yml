@@ -5,4 +5,4 @@ rvm:
   - "1.9.3"
   - "rbx-2.2"
   - "jruby-1.7"
-script: 'bundle exec rake test'
+script: 'bundle exec rspec'
