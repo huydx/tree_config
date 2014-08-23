@@ -11,6 +11,7 @@ module TreeConfig
           struct_obj.send("#{entry}=", DeepStruct.new)
           struct_obj.send("#{entry}=", self.load(full_path, struct_obj.send("#{entry}")))
         else
+          next if entry.empty? || (entry[-3,3] != "yml" && entry[-4,4] != "yaml") 
           hash = ActiveSupport::HashWithIndifferentAccess.new(
             begin 
               YAML.load(File.open(full_path))
