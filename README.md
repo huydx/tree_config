@@ -1,5 +1,6 @@
 # TreeConfig
 ![](https://travis-ci.org/huydx/tree_config.svg)
+
 Rails very simple configuration gem, which use "folder structure" as settings key
 
 ## Installation
