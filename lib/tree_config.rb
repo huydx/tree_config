@@ -1,4 +1,5 @@
 require "tree_config/version"
+require "active_support"
 require 'active_support/core_ext'
 require 'tree_config/vendor/directory_tree'
 require 'tree_config/vendor/deep_struct'
