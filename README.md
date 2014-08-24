@@ -3,7 +3,8 @@
 
 ![](https://travis-ci.org/huydx/tree_config.svg)
 
-Rails very simple configuration gem, which use "folder structure" as settings key
+Rails very simple configuration gem, which use "folder structure" as settings key.
+tree_config is available to used with ruby over 2.0. 
 
 ## Installation
 
