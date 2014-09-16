@@ -1,7 +1,7 @@
 module TreeConfig
   module Generators
     class InstallGenerator < ::Rails::Generators::Base
-      desc "Generates a custom Hekk Config initializer file."
+      desc "Generates a custom Tree Config initializer file."
 
       def self.source_root
         @_tree_config_source_root ||= File.expand_path('../templates', __FILE__)
